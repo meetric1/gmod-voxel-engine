@@ -1,0 +1,15 @@
+[package]
+name = "gmsv_voxels_win64"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]	# put in dll
+
+
+[dependencies]
+glam = "*"		# vector library
+rglua = "*"
+rand = "*"
